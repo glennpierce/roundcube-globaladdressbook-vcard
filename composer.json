@@ -1,0 +1,25 @@
+{
+    "name": "roundcube/roundcube-globaladdressbook-vcard",
+    "type": "roundcube-plugin",
+    "description": "Plugin to add a new address book with contacts from a vcard file",
+    "license": "GPL-3.0-or-later",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Glenn Pierce",
+            "email": "glennpierce@gmail.com",
+            "role": "Lead"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "roundcube/plugin-installer": "~0.3.5",
+        "sabre/vobject": "^4.3" 
+    },
+    "autoload": {
+        "classmap": [
+            "vcard_addressbook_backend.php"
+        ]
+    }
+}
+

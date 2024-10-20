@@ -1,0 +1,9 @@
+<?php
+
+$config = [];
+
+
+// config/config.inc.php
+$config['vcard_directory'] = '/path/to/vcard/directory';
+
+?>
